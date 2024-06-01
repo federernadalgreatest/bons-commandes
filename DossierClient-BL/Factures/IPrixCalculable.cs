@@ -8,9 +8,8 @@ namespace DossierClient_BL.Factures
 {
     internal interface IPrixCalculable
     {
-        public int Quantite { get; set; }
+        public int Quantite         { get; set; }
         public decimal PrixUnitaire { get; set; }
-
-        public decimal Prix { get; set; }
+        public decimal Prix         { get; set; }
     }
 }

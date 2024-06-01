@@ -8,9 +8,9 @@ namespace DossierClient_BL.Factures
 {
     public class EchellePrix
     {
-        public List<Echelon> Echelons { get; set; }
+        public List<Echelon> Echelons   { get; set; }
 
-        public List<int> IdProduits { get; set; }
+        public List<int> IdProduits     { get; set; }
 
     }
 }

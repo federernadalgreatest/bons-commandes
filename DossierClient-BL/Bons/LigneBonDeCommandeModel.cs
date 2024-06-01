@@ -10,10 +10,8 @@ namespace DossierClient_BL.Bons
     public class LigneBonDeCommandeModel
     {
         public Produit Produit { get;}
-
         public int Quantite { get;}
         public decimal PrixUnitaire { get;}
-
         public decimal Prix { get;}
     }
 }

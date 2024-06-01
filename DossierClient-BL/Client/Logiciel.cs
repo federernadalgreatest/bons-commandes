@@ -17,9 +17,9 @@ namespace DossierClient_BL.Client
 
         public Logiciel(int id, string name, int idProduit, int nbLicences)
         {
-            _id = id;
-            _name = name;
-            _idProduit = idProduit;
+            _id         = id;
+            _name       = name;
+            _idProduit  = idProduit;
             _nbLicences = nbLicences;
         }
 

@@ -11,13 +11,13 @@ namespace DossierClient_BL.Factures
 {
     internal class CalculateurPrix
     {
-        private Dictionary<int,Logiciel> _logicielsClient;
-        private Dictionary<int, IPrixCalculable> _calculables;
+        private Dictionary<int,Logiciel>            _logicielsClient;
+        private Dictionary<int, IPrixCalculable>    _calculables;
 
         public CalculateurPrix(Dictionary<int, Logiciel> logicielsClient, Dictionary<int, IPrixCalculable> calculables)
         {
-            _logicielsClient = logicielsClient;
-            _calculables = calculables;
+            _logicielsClient    = logicielsClient;
+            _calculables        = calculables;
         }
 
         public void CalculerPrix(Produit produit)

@@ -14,8 +14,8 @@ namespace DossierClient_BL.Client
 
         public Client(int id, string name, Dictionary<int, Logiciel> logiciels)
         {
-            _id = id;
-            _name = name;
+            _id     = id;
+            _name   = name;
             _logiciels = logiciels;
         }
 
