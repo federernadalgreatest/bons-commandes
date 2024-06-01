@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>DossierClient_UI</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DossierClient-BL\DossierClient-BL.csproj" />
+    <ProjectReference Include="..\DossierClient-DAL\DossierClient-DAL.csproj" />
+  </ItemGroup>
+
+</Project>
